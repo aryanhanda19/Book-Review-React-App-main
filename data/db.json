@@ -1,0 +1,85 @@
+{
+  "books": [
+    {
+      "id": "41971011-92fe-451d-8b31-fd4fae4263c3",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "rating": 5,
+      "image": "https://m.media-amazon.com/images/I/81aCMT1zKtL._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-06-15",
+      "review": "One of the most magical experiences I’ve had. The world-building and characters just pull you right in. Truly a story that will stick with me forever."
+    },
+    {
+      "id": "d781aa74-b238-4a57-abf7-b89dcf463e83",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/915KEvGiX-L._SY342_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "ef30c25d-9054-4950-bed2-c0afdac336db",
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "rating": 5,
+      "image": "https://m.media-amazon.com/images/I/711gFGlF2iL._SY466_.jpg",
+      "readDate": "2023-08-10",
+      "review": "Such a gripping and atmospheric read! The eerie setting on the moors and Sherlock’s genius made it impossible to put down. Easily one of the best mysteries I’ve ever read."
+    },
+    {
+      "id": "48b8728f-2679-481c-9882-ddafb19fc98c",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/81NQA1BDlnL._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "70f6e7f0-a57f-449c-9597-2071e9acbf83",
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/81zeKRGCPpL._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "8097e85d-1938-4685-b0a4-8213cf0b69c5",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/81BXnTqH7-L._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "608cee3d-430f-4ac8-a467-c85b80ebd4b6",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/81DN1723hUL._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "15067b3c-1a28-4317-bc00-e5069b257261",
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J.K. Rowling",
+      "rating": 4,
+      "image": "https://m.media-amazon.com/images/I/81aCMT1zKtL._AC_UF1000,1000_QL80_.jpg",
+      "readDate": "2023-07-20",
+      "review": "I loved how the mystery unfolded in this one. It was darker and creepier than the first book but equally engaging. A great follow-up in the series!"
+    },
+    {
+      "id": "571eba36-8e3f-41dd-8542-d469b4dbb3d3",
+      "title": "Story of My Life",
+      "author": "Viraj Patel",
+      "image": "https://picsum.photos/id/29/652/1000",
+      "rating": 1,
+      "readDate": "2024-10-25",
+      "review": "Best book I have ever read. I loved it. I can't wait to read the next one."
+    }
+  ]
+}

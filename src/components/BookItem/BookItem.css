@@ -1,0 +1,77 @@
+/* Book Item */
+.book-item {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.4s, box-shadow 0.4s;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(255, 0, 150, 0.4), 0 12px 20px rgba(0, 123, 255, 0.4);
+    z-index: 3;
+}
+
+/* Book Cover */
+.book-cover {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.book-item:hover .book-cover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Text Styles */
+.book-title {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Helvetica', sans-serif;
+    margin: 10px 0 5px;
+}
+
+.book-author {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.delete-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+    transform: scale(1.1);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

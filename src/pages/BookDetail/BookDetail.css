@@ -1,0 +1,296 @@
+/* General Page Styling */
+.bookdetailpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.bookdetailtitle {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Gagalin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+    background-color: none !important;
+}
+
+/* Add hover effect to the book title */
+.bookdetailtitle:hover {
+    transform: scale(1.05);
+    color: #3498db;
+}
+
+/* Container for Book Detail */
+.bookdetailcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 30px;
+    backdrop-filter: blur(15px);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.bookdetailcontainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 123, 255, 0.4), 0 15px 30px rgba(255, 0, 123, 0.3);
+}
+
+/* Book Image & Button Styling */
+.bookimagebtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    animation: fadeInUp 0.6s forwards;
+}
+
+.bookimage {
+    width: 260px; /* Reduced size */
+    height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookimage:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.3);
+}
+.bookdetails:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 25px rgba(255, 0, 0, 0.3);
+}
+
+.readbtn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.readbtn:hover {
+    background-color: #555;
+    color: #f7f7f7;
+    transform: scale(1.1);
+}
+
+/* Book Details Section */
+.bookdetails {
+    flex-grow: 1;
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 25px;
+    border-radius: 20px;
+    animation: fadeInUp 0.8s forwards;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookname {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-family: 'Gagalin', sans-serif;
+    text-align: left; 
+    transition: transform 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.bookname:hover {
+    transform: scale(1.05);
+    color: #3498db;
+}
+
+/* Text Styling for Details */
+.bookauthor,
+.Readdatetext,
+.Rating,
+.yourreview {
+    font-size: 1.2rem;
+    margin: 12px 0;
+    color: #333; /* Darker color for all titles */
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    text-align: left;
+    
+}
+
+/* Rating Stars */
+.Rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Rating .star {
+    color: gold;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    transition: transform 0.2s ease;
+}
+
+.Rating .star:hover {
+    transform: scale(1.2);
+}
+
+/* Review Section Styling */
+.reviewtext {
+    background-color: rgba(225, 240, 248, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 0px; /* Moved it down a bit */
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.1);
+    text-align: justify; /* Justified text for better readability */
+}
+
+.reviewtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bookdetailcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bookimagebtn {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .bookdetails {
+        padding: 20px;
+    }
+
+    .bookname {
+        font-size: 1.8rem;
+    }
+
+    .bookauthor,
+    .Readdatetext,
+    .Rating,
+    .yourreview {
+        font-size: 1.1rem;
+    }
+
+    .Rating .star {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bookimage {
+        width: 220px; /* Reduced for small screens */
+        height: 330px;
+    }
+
+    .readbtn {
+        padding: 10px 20px;
+    }
+
+    .bookname {
+        font-size: 1.6rem;
+    }
+
+    .Rating .star {
+        font-size: 1.3rem;
+    }
+}
+
+.yourreviewtext {
+    margin-top: 80px;
+}
+
+/* Modal styling */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    animation: fadeIn 0.5s;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

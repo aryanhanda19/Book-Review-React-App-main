@@ -1,0 +1,115 @@
+.add-book {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;  
+}
+
+.input-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-field input, .input-field textarea {
+    width: 70%;
+    border-radius: 20px;
+    padding: 2px 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-size: large;
+    transition: all ease 0.4s;
+}
+
+.input-field input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgb(101, 170, 146, 0.5);
+}
+
+.add-book h2 {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.add-book label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-book textarea {
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    resize: none;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-size: large;
+    transition: all ease 0.4s;
+}
+
+.add-book textarea:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgb(101, 170, 146, 0.5);
+}
+
+.add-book button {
+    padding: 12px 20px;
+    background-color: rgb(101, 170, 146);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in;  /* Smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Initial button shadow */
+}
+
+.add-book button:hover {
+    /* background-color: #0056b3;  Change background on hover */
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  /* Increased shadow on hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+.form-error {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.review-textarea {
+    width: 100%;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* General styling for the status message */
+.status-message {
+    font-size: 1.1em;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
